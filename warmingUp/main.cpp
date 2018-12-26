@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <string.h>
 int main()
 {
-    int num = 0;
+    /*int num = 0;
     int cnt = 0;
     int* arr = (int*)calloc(sizeof(int),5);
     while(1)
@@ -22,5 +22,12 @@ int main()
     printf("\n%d",cnt);
     printf("\n%d",sizeof(arr)/sizeof(int));
     free(arr);
+    */
+    char *name = "hello";
+    char t[30];
+    strcpy(t,name);
+    printf("%s",t);
+
+
     return 0;
 }

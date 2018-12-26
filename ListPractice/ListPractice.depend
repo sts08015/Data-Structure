@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1545705001 source:c:\users\sts08\desktop\data-structure\listpractice\listmain.c
+	<stdio.h>
+	"ArrayList.h"
+
+1545711531 c:\users\sts08\desktop\data-structure\listpractice\arraylist.h
+	"NameCard.h"
+	"Point.h"
+
+1545704086 source:c:\users\sts08\desktop\data-structure\listpractice\arraylist.c
+	<stdio.h>
+	"ArrayList.h"
+
+1545704366 c:\users\sts08\desktop\data-structure\listpractice\point.h
+
+1545704618 source:c:\users\sts08\desktop\data-structure\listpractice\point.c
+	<stdio.h>
+	"Point.h"
+
+1545711625 source:c:\users\sts08\desktop\data-structure\listpractice\pointlistmain.c
+	<stdlib.h>
+	"ArrayList.h"
+	"Point.h"
+
+1545706215 c:\users\sts08\desktop\data-structure\listpractice\namecard.h
+
+1545712981 source:c:\users\sts08\desktop\data-structure\listpractice\namecard.c
+	<stdio.h>
+	"NameCard.h"
+	<string.h>
+
+1545715386 source:c:\users\sts08\desktop\data-structure\listpractice\namecardlistmain.c
+	<stdio.h>
+	"NameCard.h"
+	"ArrayList.h"
+	<stdlib.h>
+
