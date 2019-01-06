@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1545991676 source:c:\users\sts08\desktop\data-structure\hanoi\main.cpp
+	<stdio.h>
+	<stdlib.h>
+
