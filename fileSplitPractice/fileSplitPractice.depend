@@ -1,4 +1,17 @@
 # depslib dependency file v1.0
-1514140574 source:c:\users\sts08\desktop\data-structure\filesplitpractice\main.cpp
-	<iostream>
+1545568827 source:c:\users\sts08\desktop\data-structure\filesplitpractice\main.cpp
+	<stdio.h>
+	"areaArith.h"
+	"roundArith.h"
+
+1545568428 source:c:\users\sts08\desktop\data-structure\filesplitpractice\basicarith.cpp
+
+1545568489 c:\users\sts08\desktop\data-structure\filesplitpractice\areaarith.h
+
+1545568611 c:\users\sts08\desktop\data-structure\filesplitpractice\roundarith.h
+
+1545568679 source:c:\users\sts08\desktop\data-structure\filesplitpractice\roundarith.cpp
+	"basicArith.h"
+
+1545568320 c:\users\sts08\desktop\data-structure\filesplitpractice\basicarith.h
 

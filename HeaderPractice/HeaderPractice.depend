@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1551745135 source:c:\users\sts08\desktop\data-structure\headerpractice\main.cpp
+	<stdio.h>
+	"stdiv2.h"
+	"intdiv4.h"
+
+1551743053 c:\users\sts08\desktop\data-structure\headerpractice\stdiv2.h
+
+1551743620 c:\users\sts08\desktop\data-structure\headerpractice\intdiv4.h
+	"stdiv2.h"
+
