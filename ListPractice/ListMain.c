@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "ArrayList.h"
-/*
+
 int main(void)
 {
 	List list;
@@ -38,4 +38,3 @@ int main(void)
 
 	return 0;
 }
-*/

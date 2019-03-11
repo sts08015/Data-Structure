@@ -3,29 +3,29 @@
 
 int main(void)
 {
+	/*** ArrayListÀÇ »ı¼º ¹× ÃÊ±âÈ­ ***/
 	List list;
 	int data;
-	aa();
-
 	ListInit(&list);
 
-
+	/*** 5°³ÀÇ µ¥ÀÌÅÍ ÀúÀå ***/
 	LInsert(&list, 11);  LInsert(&list, 11);
 	LInsert(&list, 22);  LInsert(&list, 22);
 	LInsert(&list, 33);
 
-	printf("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½: %d \n", LCount(&list));
+	/*** ÀúÀåµÈ µ¥ÀÌÅÍÀÇ ÀüÃ¼ Ãâ·Â ***/
+	printf("ÇöÀç µ¥ÀÌÅÍÀÇ ¼ö: %d \n", LCount(&list));
 
-	if(LFirst(&list, &data))    // Ã¹ ï¿½ï¿½Â° ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¸
+	if(LFirst(&list, &data))    // Ã¹ ¹øÂ° µ¥ÀÌÅÍ Á¶È¸
 	{
 		printf("%d ", data);
 
-		while(LNext(&list, &data))    // ï¿½ï¿½ ï¿½ï¿½Â° ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¸
+		while(LNext(&list, &data))    // µÎ ¹øÂ° ÀÌÈÄÀÇ µ¥ÀÌÅÍ Á¶È¸
 			printf("%d ", data);
 	}
 	printf("\n\n");
 
-	/*** ï¿½ï¿½ï¿½ï¿½ 22ï¿½ï¿½ Å½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ***/
+	/*** ¼ıÀÚ 22À» Å½»öÇÏ¿© ¸ğµÎ »èÁ¦ ***/
 	if(LFirst(&list, &data))
 	{
 		if(data == 22)
@@ -38,8 +38,8 @@ int main(void)
 		}
 	}
 
-	/*** ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ ***/
-	printf("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½: %d \n", LCount(&list));
+	/*** »èÁ¦ ÈÄ ÀúÀåµÈ µ¥ÀÌÅÍ ÀüÃ¼ Ãâ·Â ***/
+	printf("ÇöÀç µ¥ÀÌÅÍÀÇ ¼ö: %d \n", LCount(&list));
 
 	if(LFirst(&list, &data))
 	{
@@ -51,3 +51,4 @@ int main(void)
 	printf("\n\n");
 	return 0;
 }
+// linked list solve

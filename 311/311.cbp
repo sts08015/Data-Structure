@@ -33,11 +33,8 @@
 		</Compiler>
 		<Unit filename="ArrayList.c">
 			<Option compilerVar="CC" />
-			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="ArrayList.h">
-			<Option target="&lt;{~None~}&gt;" />
-		</Unit>
+		<Unit filename="ArrayList.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

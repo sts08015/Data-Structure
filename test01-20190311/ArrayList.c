@@ -9,9 +9,9 @@ void ListInit(List * plist)
 
 void LInsert(List * plist, LData data)
 {
-	if(plist->numOfData > LIST_LEN) 
+	if(plist->numOfData > LIST_LEN)
 	{
-		puts("저장이 불가능합니다.");
+		printf("no size\n");
 		return;
 	}
 
@@ -43,10 +43,9 @@ LData LRemove(List * plist)
 {
 	int rpos = plist->curPosition;
 	int num = plist->numOfData;
-	int i;
 	LData rdata = plist->arr[rpos];
 
-	for(i=rpos; i<num-1; i++)
+	for(int i=rpos; i<num-1; i++)
 		plist->arr[i] = plist->arr[i+1];
 
 	(plist->numOfData)--;

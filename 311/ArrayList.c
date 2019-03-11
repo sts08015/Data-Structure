@@ -1,53 +1,57 @@
 #include <stdio.h>
 #include "ArrayList.h"
 
-void aa()
-{
-    printf("aaaaa");
-}
 void ListInit(List * plist)
 {
-
-
+	(plist->numOfData) = 0;
+	(plist->curPosition) = -1;
 }
 
 void LInsert(List * plist, LData data)
 {
+	if(plist->numOfData > LIST_LEN)
+	{
+		printf("no size\n");
+		return;
+	}
 
-
-
-
-
+	plist->arr[plist->numOfData] = data;
+	(plist->numOfData)++;
 }
 
 int LFirst(List * plist, LData * pdata)
 {
+	if(plist->numOfData == 0)
+		return FALSE;
 
-    return 1;
-
-
+	(plist->curPosition) = 0;
+	*pdata = plist->arr[0];
+	return TRUE;
 }
 
 int LNext(List * plist, LData * pdata)
 {
+	if(plist->curPosition >= (plist->numOfData)-1) return FALSE;
 
-
-return 1;
-
+	(plist->curPosition)++;
+	*pdata = plist->arr[plist->curPosition];
+	return TRUE;
 }
 
 LData LRemove(List * plist)
 {
+	int rpos = plist->curPosition;
+	int num = plist->numOfData;
+	LData rdata = plist->arr[rpos];
 
-return 1;
+	for(int i=rpos; i<num-1; i++) plist->arr[i] = plist->arr[i+1];
 
-
-
-
+	(plist->numOfData)--;
+	(plist->curPosition)--;
+	return rdata;
 }
 
 int LCount(List * plist)
 {
-
-return 1;
+	return plist->numOfData;
 }
