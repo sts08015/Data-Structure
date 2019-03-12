@@ -17,10 +17,12 @@ void LInsert(List * plist, LData data)
 
 int LFirst(List * plist, LData * pdata)
 {
-	if(plist->numOfData == 0) return FALSE;
+	if(plist->numOfData == 0) return 0;
 	plist->curPosition = 0;
-	*pdata = plist->arr[plist->curPosition];
-	return TRUE;
+
+	*pdata = plist->arr[0];
+	//printf("1");
+	return 1;
 }
 
 int LNext(List * plist, LData * pdata)

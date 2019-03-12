@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "NameCard.h"
 #include <string.h>
 
 NameCard *MakeNameCard(char * name, char* phone)
 {
     NameCard* namecard = (NameCard*)malloc(sizeof(NameCard));
+    //strcpy(namecard->name,name);
     strcpy(namecard->name,name);
     strcpy(namecard->phone,phone);
     return namecard;

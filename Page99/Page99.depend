@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1552378053 source:c:\users\sts08\desktop\data-structure\page99\arraylist.c
+	<stdio.h>
+	"ArrayList.h"
+
+1552378442 c:\users\sts08\desktop\data-structure\page99\arraylist.h
+	"NameCard.h"
+
+1552376600 source:c:\users\sts08\desktop\data-structure\page99\namecard.c
+	"NameCard.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+
+1552280437 c:\users\sts08\desktop\data-structure\page99\namecard.h
+
+1552378654 source:c:\users\sts08\desktop\data-structure\page99\main.c
+	<stdio.h>
+	"ArrayList.h"
+	"NameCard.h"
+
