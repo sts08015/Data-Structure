@@ -1,18 +1,20 @@
 #include <stdio.h>
 
-void Swap(int ** a,int ** b)
+void hanoi(int n,char from,char by,char to)
 {
-    int *tmp;
-    tmp = *b;
-    *b = *a;
-    *a = tmp;
+    if(n == 1)
+    {
+        printf("1 %c %c\n",from,to);
+        return;
+    }
+    hanoi(n-1,from,to,by);
+    printf("%d %c %c\n",n,from,to);
+    hanoi(n-1,by,from,to);
 }
+
 int main()
 {
-    int a = 1;
-    int b = 2;
-    int * a1 = &a;
-    int * b1 = &b;
-    Swap(&a1,&b1);
-    printf("%d %d",*a1,*b1);
+    int n;
+    scanf("%d",&n);
+    hanoi(n,'A','B','C');
 }
