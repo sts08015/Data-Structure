@@ -22,8 +22,71 @@ int main()
         while(LNext(&list,&tmp))
         {
             ShowNameCardInfo(tmp);
+            puts("");
+        }
+    }
+    printf("Finding fisma...\n");
+    if(LFirst(&list,&tmp))
+    {
+        if(!NameCompare(tmp,"fisma"))
+        {
+            ShowNameCardInfo(tmp);
+            puts("");
+        }
+        while(LNext(&list,&tmp))
+        {
+            if(!NameCompare(tmp,"fisma"))
+            {
+                ShowNameCardInfo(tmp);
+                puts("");
+            }
+        }
+    }
+    printf("Changing hello...\n");
+    if(LFirst(&list,&tmp))
+    {
+        if(!NameCompare(tmp,"hello"))
+        {
+            ChangePhoneNum(tmp,"777");
+            ShowNameCardInfo(tmp);
+            puts("");
+        }
+        while(LNext(&list,&tmp))
+        {
+            if(!NameCompare(tmp,"hello"))
+            {
+                ChangePhoneNum(tmp,"777");
+                ShowNameCardInfo(tmp);
+                puts("");
+            }
         }
     }
 
+    printf("Removing world...\n");
+    if(LFirst(&list,&tmp))
+    {
+        if(!NameCompare(tmp,"world"))
+        {
+            LRemove(&list);
+        }
+        while(LNext(&list,&tmp))
+        {
+            if(!NameCompare(tmp,"world"))
+            {
+                LRemove(&list);
+            }
+        }
+    }
+    //printf("22");
 
+    if(LFirst(&list,&tmp))
+    {
+        ShowNameCardInfo(tmp);
+        while(LNext(&list,&tmp))
+        {
+            ShowNameCardInfo(tmp);
+            //puts("");
+            free(tmp);
+        }
+    }
 }
