@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1552908714 source:c:\users\sts08\desktop\data-structure\dlinkedlist_again\main.c
+	<stdio.h>
+	"DLinkedList.h"
+
+1552909487 c:\users\sts08\desktop\data-structure\dlinkedlist_again\dlinkedlist.h
+
