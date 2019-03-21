@@ -5,3 +5,8 @@
 
 1552909487 c:\users\sts08\desktop\data-structure\dlinkedlist_again\dlinkedlist.h
 
+1552924560 source:c:\users\sts08\desktop\data-structure\dlinkedlist_again\dlinkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	"DLinkedList.h"
+

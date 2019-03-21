@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1552991978 source:c:\users\sts08\desktop\data-structure\dlinkedlist_reverse\dlinkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	"DLinkedList.h"
+
+1552992430 c:\users\sts08\desktop\data-structure\dlinkedlist_reverse\dlinkedlist.h
+
+1552992432 source:c:\users\sts08\desktop\data-structure\dlinkedlist_reverse\main.c
+	<stdio.h>
+	"DLinkedList.h"
+

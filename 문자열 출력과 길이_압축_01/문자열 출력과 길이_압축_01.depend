@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1553135145 source:c:\users\sts08\desktop\data-structure\문자열 출력과 길이_압축_01\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
