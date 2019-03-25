@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1553479319 source:c:\users\sts08\desktop\data-structure\pointlist\dlinkedlistsortmain.c
+	"DLinkedSortList.h"
+
+1553479633 c:\users\sts08\desktop\data-structure\pointlist\dlinkedsortlist.h
+
+1553478936 source:c:\users\sts08\desktop\data-structure\pointlist\point.c
+	<stdio.h>
+	"Point.h"
+
+1553478932 c:\users\sts08\desktop\data-structure\pointlist\point.h
+
+1553480926 source:c:\users\sts08\desktop\data-structure\pointlist\pointlistsortmain.c
+	<stdio.h>
+	<stdlib.h>
+	"DLinkedList.h"
+	"Point.h"
+
+1553479388 c:\users\sts08\desktop\data-structure\pointlist\dlinkedlist.h
+	"Point.h"
+
+1553480514 source:c:\users\sts08\desktop\data-structure\pointlist\dlinkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	"Point.h"
+	"DLinkedList.h"
+

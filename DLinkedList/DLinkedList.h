@@ -31,4 +31,5 @@ int LNext(List * plist,LData * pdata);
 LData LRemove(List * plist);
 int LCount(List * plist);
 
+void SetSortRule(List * plist, int (*comp)(LData d1,LData d2));
 #endif // DLINKEDLIST_H_INCLUDED
