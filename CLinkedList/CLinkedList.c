@@ -65,7 +65,7 @@ Data LRemove(List * plist)
 {
     Node * rNode = plist->cur;
     Data rData = rNode->data;
-
+        // think when numOfdata is 0
     if(rNode == plist->tail)
     {
         if(plist->tail == plist->tail->next) plist->tail = NULL;
