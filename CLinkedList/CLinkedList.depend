@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1553649333 source:c:\users\sts08\desktop\data-structure\clinkedlist\clinkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	"CLinkedList.h"
+
+1553642906 c:\users\sts08\desktop\data-structure\clinkedlist\clinkedlist.h
+
+1553642912 source:c:\users\sts08\desktop\data-structure\clinkedlist\clinkedlistmain.c
+	<stdio.h>
+	"CLinkedList.h"
+
