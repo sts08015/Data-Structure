@@ -2,32 +2,37 @@
 #include <stdlib.h>
 #include "CDLinkedList.h"
 
-
+// how to improve
+// 1. move tail
+// idea : next next
+// wlqudgus's idea
 void ListInit(List * plist)
 {
     plist->numOfData = 0;
     plist->before = NULL;
     plist->cur = NULL;
     plist->tail = (Node *)malloc(sizeof(Node));
+    plist->tail->next = plist->tail;
 }
 void LInsert(List * plist, Data data)
 {
     Node * newNode = (Node *)malloc(sizeof(Node));
-    newNode ->data = data;
 
-    if(plist->numOfData == 0)
-    {
-        plist->tail->next = newNode;
-        newNode->next = plist->tail;
-    }
-    else
-    {
-        newNode->next = plist->tail->next;
-        plist->tail->next = newNode;
-    }
+
+    newNode->next = plist->tail->next;
+    plist->tail->next = newNode;
+    plist->tail->data = data;
+    plist->tail = plist->tail->next;
     (plist->numOfData)++;
 }
-
+void LInsertFront(List * plist, Data data)
+{
+    Node * newNode = (Node *)malloc(sizeof(Node));
+    newNode ->data = data;
+    newNode->next = plist->tail->next;
+    plist->tail->next = newNode;
+    (plist->numOfData)++;
+}
 int LFirst(List * plist, Data * pdata)
 {
     if(plist->numOfData ==0)

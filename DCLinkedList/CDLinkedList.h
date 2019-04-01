@@ -25,7 +25,7 @@ typedef CList List;
 
 void ListInit(List * plist);
 void LInsert(List * plist, Data data);
-//void LInsertFront(List * plist, Data data);
+void LInsertFront(List * plist, Data data);
 
 int LFirst(List * plist, Data * pdata);
 int LNext(List * plist, Data * pdata);
