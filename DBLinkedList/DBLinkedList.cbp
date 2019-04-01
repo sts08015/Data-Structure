@@ -31,7 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="main.c">
+		<Unit filename="DBLinkedList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DBLinkedListMain.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

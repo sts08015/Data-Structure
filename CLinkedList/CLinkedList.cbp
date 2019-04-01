@@ -34,7 +34,6 @@
 		<Unit filename="CLinkedList.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="CLinkedList.h" />
 		<Unit filename="CLinkedListMain.c">
 			<Option compilerVar="CC" />
 		</Unit>
