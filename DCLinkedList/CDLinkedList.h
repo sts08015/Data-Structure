@@ -29,7 +29,7 @@ void LInsert(List * plist, Data data);
 
 int LFirst(List * plist, Data * pdata);
 int LNext(List * plist, Data * pdata);
+
 Data LRemove(List * plist);
 int LCount(List * plist);
-
 #endif

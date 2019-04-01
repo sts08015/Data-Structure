@@ -9,6 +9,7 @@ int main(void)
     ListInit(&list);
 
     // 리스트에 5개의 데이터를 저장 ///////
+    LInsert(&list,2);
     LInsert(&list, 3);
     LInsert(&list, 4);
     LInsert(&list, 5);

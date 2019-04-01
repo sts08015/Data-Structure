@@ -1,8 +1,12 @@
 # depslib dependency file v1.0
-1553739056 source:c:\users\sts08\desktop\data-structure\dclinkedlist\cdlinkedlist.c
+1553849195 source:c:\users\sts08\desktop\data-structure\dclinkedlist\cdlinkedlist.c
 	<stdio.h>
 	<stdlib.h>
 	"CDLinkedList.h"
 
-1553738982 c:\users\sts08\desktop\data-structure\dclinkedlist\cdlinkedlist.h
+1554083443 c:\users\sts08\desktop\data-structure\dclinkedlist\cdlinkedlist.h
+
+1554082746 source:c:\users\sts08\desktop\data-structure\dclinkedlist\cdlinkedlistmain.c
+	<stdio.h>
+	"CDLinkedList.h"
 
