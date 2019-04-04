@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1554335516 source:c:\users\sts08\desktop\data-structure\teststudy\main.c
+	<stdio.h>
+	"ArrayList.h"
+
+1554343491 c:\users\sts08\desktop\data-structure\teststudy\arraylist.h
+
+1554335518 source:c:\users\sts08\desktop\data-structure\teststudy\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+

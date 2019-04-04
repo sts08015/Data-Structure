@@ -1,8 +1,5 @@
 #include <stdio.h>
-#include "CDLinkedList.h"
-#include "Employee.h"
-#include <string.h>
-#include <stdlib.h>
+#include "ArrayList.h"
 
 int main(void)
 {
@@ -10,28 +7,15 @@ int main(void)
     List list;
     int data, i, nodeNum;
     ListInit(&list);
-    Employee * pemp;
-    pemp = (Employee *)malloc(sizeof(Employee));
-    strcpy(pemp->name,"Terry");
-    pemp->num = 111;
-    LInsert(&list,pemp);
-
-    strcpy(pemp->name,"Harry");
-    pemp->num = 222;
-    LInsert(&list,pemp);
-
-    strcpy(pemp->name,"Sunny");
-    pemp->num = 333;
-    LInsert(&list,pemp);
 
     // 리스트에 5개의 데이터를 저장 ///////
-    //LInsert(&list, 3);
-	//LInsert(&list, 4);
-	//LInsert(&list, 5);
-	//LInsertFront(&list, 2);
-	//LInsertFront(&list, 1);
-    //LInsertFront(&list, 2);
-    //LInsertFront(&list, 1);
+    LInsert(&list, 3);
+	LInsert(&list, 4);
+	LInsert(&list, 5);
+	LInsertFront(&list, 2);
+	LInsertFront(&list, 1);
+//    LInsertFront(&list, 2);
+  //  LInsertFront(&list, 1);
 
     // 리스트에 저장된 데이터를 연속 3회 출력 ///////
     if(LFirst(&list, &data))

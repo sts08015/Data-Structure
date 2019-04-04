@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1554343821 source:c:\users\sts08\desktop\data-structure\dblinkedlist\dblinkedlistmain.c
+	<stdio.h>
+	"DBLinkedList.h"
+
+1554343613 c:\users\sts08\desktop\data-structure\dblinkedlist\dblinkedlist.h
+
