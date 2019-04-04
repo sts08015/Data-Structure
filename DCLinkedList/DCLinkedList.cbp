@@ -38,6 +38,7 @@
 		<Unit filename="CDLinkedListMain.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="Employee.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

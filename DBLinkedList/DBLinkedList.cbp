@@ -34,6 +34,7 @@
 		<Unit filename="DBLinkedList.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="DBLinkedList.h" />
 		<Unit filename="DBLinkedListMain.c">
 			<Option compilerVar="CC" />
 		</Unit>
