@@ -1,7 +1,12 @@
 # depslib dependency file v1.0
-1554343821 source:c:\users\sts08\desktop\data-structure\dblinkedlist\dblinkedlistmain.c
+1554688717 source:c:\users\sts08\desktop\data-structure\dblinkedlist\dblinkedlistmain.c
 	<stdio.h>
 	"DBLinkedList.h"
 
-1554343613 c:\users\sts08\desktop\data-structure\dblinkedlist\dblinkedlist.h
+1554687912 c:\users\sts08\desktop\data-structure\dblinkedlist\dblinkedlist.h
+
+1554688774 source:c:\users\sts08\desktop\data-structure\dblinkedlist\dblinkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	"DBLinkedList.h"
 

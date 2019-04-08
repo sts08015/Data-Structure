@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "DBLinkedList.h"
  // dummy 모두 없는거, 양쪽에 있는거 , 한쪽에 있는거
 void ListInit(List * plist)
@@ -71,4 +72,32 @@ int LPrevious(List * plist, Data * pdata)
 int LCount(List * plist)
 {
     return plist->numOfData;
+}
+
+Data LRemove(List * plist)
+{
+    Node * rNode = plist->cur;
+    Data rData = plist->cur->data;
+
+    if(plist->cur == plist->head)
+    {
+        plist->head = plist->cur->next;
+        //plist->head->prev = NULL;
+        //plist->cur = plist->head->prev;
+    }
+    else if(plist->cur == plist->tail)
+    {
+        plist->tail = plist->cur->prev;
+        //plist->tail->next = NULL;
+        //plist->cur = plist->tail;
+    }
+    else
+    {
+        plist->cur->prev->next = plist->cur->next;
+        plist->cur->next->prev = plist->cur->prev;
+        //plist->cur = plist->cur->prev;
+    }
+    free(rNode);
+    (plist->numOfData)--;
+    return rData;
 }
