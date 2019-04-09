@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1554796486 source:c:\users\sts08\desktop\data-structure\listbasestack\listbasestack.c
+	<stdio.h>
+	<stdlib.h>
+	"ListBaseStack.h"
+
+1554795449 c:\users\sts08\desktop\data-structure\listbasestack\listbasestack.h
+
+1554796674 source:c:\users\sts08\desktop\data-structure\listbasestack\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListBaseStack.h"
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1553739607 source:c:\users\sts08\desktop\data-structure\clinkedlist\clinkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	"CLinkedList.h"
+
+1553642906 c:\users\sts08\desktop\data-structure\clinkedlist\clinkedlist.h
+
+1554799300 source:c:\users\sts08\desktop\data-structure\clstack\cllbasestack.c
+
+1514140574 source:c:\users\sts08\desktop\data-structure\clstack\main.c
+	<stdio.h>
+	<stdlib.h>
+
