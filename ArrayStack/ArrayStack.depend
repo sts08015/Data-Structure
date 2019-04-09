@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1554691363 source:c:\users\sts08\desktop\data-structure\arraystack\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayStack.h"
+
+1554692004 c:\users\sts08\desktop\data-structure\arraystack\arraystack.h
+
+1554692030 source:c:\users\sts08\desktop\data-structure\arraystack\arraystack.c
+	<stdio.h>
+	"ArrayStack.h"
+
