@@ -28,20 +28,5 @@ int main(void)
 		printf("\n\n");
 	}
 
-
-	LRemove(&list);
-	LRemove(&list);
-	if(LFirst(&list, &data))
-	{
-		printf("%d ", data);
-
-		while(LNext(&list, &data))
-			printf("%d ", data);
-
-		while(LPrevious(&list, &data))
-			printf("%d ", data);
-
-		printf("\n\n");
-	}
 	return 0;
 }

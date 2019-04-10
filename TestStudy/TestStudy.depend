@@ -1,12 +1,18 @@
 # depslib dependency file v1.0
-1554335516 source:c:\users\sts08\desktop\data-structure\teststudy\main.c
+1554891592 source:c:\users\sts08\desktop\data-structure\teststudy\main.c
 	<stdio.h>
-	"ArrayList.h"
+	"DBLinkedList.h"
 
-1554343491 c:\users\sts08\desktop\data-structure\teststudy\arraylist.h
+1554343500 c:\users\sts08\desktop\data-structure\teststudy\arraylist.h
 
 1554335518 source:c:\users\sts08\desktop\data-structure\teststudy\arraylist.c
 	<stdio.h>
 	<stdlib.h>
 	"ArrayList.h"
+
+1554891357 source:c:\users\sts08\desktop\data-structure\teststudy\dblinkedlist.c
+	<stdio.h>
+	"DBLinkedList.h"
+
+1554891181 c:\users\sts08\desktop\data-structure\teststudy\dblinkedlist.h
 

@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include "DBLinkedList.h"
+#include <stdlib.h>
+#include "DummyDBLinkedList.h"
 
-int main(void)
+int main()
 {
     List list;
     int data;
@@ -20,15 +21,26 @@ int main(void)
     {
         printf("%d ",data);
         while(LNext(&list,&data))
-        {
             printf("%d ",data);
-        }
-
-        while(LPrevious(&list,&data))
-            printf("%d ",data);
-
-        printf("\n\n");
+        printf("\n");
     }
 
-	return 0;
+    if(LFirst(&list,&data))
+    {
+        if(data%2 == 0)
+            LRemove(&list);
+        while(LNext(&list,&data))
+        {
+            if(data%2 == 0) LRemove(&list);
+        }
+    }
+
+    if(LFirst(&list,&data))
+    {
+        printf("%d ",data);
+        while(LNext(&list,&data))
+            printf("%d ",data);
+        printf("\n");
+    }
+    return 0;
 }

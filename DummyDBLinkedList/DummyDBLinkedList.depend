@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1554893849 source:c:\users\sts08\desktop\data-structure\dummydblinkedlist\dummydblinkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	"DummyDBLinkedList.h"
+
+1554893161 c:\users\sts08\desktop\data-structure\dummydblinkedlist\dummydblinkedlist.h
+
+1554893388 source:c:\users\sts08\desktop\data-structure\dummydblinkedlist\main.c
+	<stdio.h>
+	<stdlib.h>
+	"DummyDBLinkedList.h"
+
