@@ -29,7 +29,7 @@ void ConvToRPNExp(char exp[])
 
 	int i, idx=0;
 	char tok, popOp;
-	
+
 	memset(convExp, 0, sizeof(char)*expLen+1);
 	StackInit(&stack);
 
@@ -38,19 +38,19 @@ void ConvToRPNExp(char exp[])
 		tok = exp[i];
 		if(isdigit(tok))
 		{
-			
+
 		}
 		else
 		{
 			switch(tok)
 			{
-			case '(':		
+			case '(':
 
-			case ')':				
+			case ')':
 
-			case '+': case '-': 
+			case '+': case '-':
 			case '*': case '/':
-				
+
 			}
 		}
 	}

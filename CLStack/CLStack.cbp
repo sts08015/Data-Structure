@@ -31,6 +31,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="../CLinkedList/CLinkedList.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../CLinkedList/CLinkedList.h" />
+		<Unit filename="CLLBaseStack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="CLLBaseStack.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

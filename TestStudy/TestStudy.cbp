@@ -31,10 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="ArrayList.c">
+		<Unit filename="DBLinkedList.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="ArrayList.h" />
+		<Unit filename="DBLinkedList.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

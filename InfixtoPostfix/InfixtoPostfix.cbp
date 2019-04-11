@@ -31,9 +31,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="main.c">
+		<Unit filename="InfixToPostfix.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="InfixToPostfix.h" />
+		<Unit filename="InfixToPostfixMain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ListBaseStack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ListBaseStack.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
