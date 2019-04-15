@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1555295386 source:c:\users\sts08\desktop\data-structure\arraycircularqueue\circularqueuemain.c
+	<stdio.h>
+	"CircularQueue.h"
+
+1555295107 c:\users\sts08\desktop\data-structure\arraycircularqueue\circularqueue.h
+
+1555295386 source:c:\users\sts08\desktop\data-structure\arraycircularqueue\circularqueue.c
+	<stdio.h>
+	<stdlib.h>
+	"CircularQueue.h"
+
