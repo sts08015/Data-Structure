@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1554947132 source:c:\users\sts08\desktop\data-structure\infixtopostfix\infixtopostfixmain.c
+	<stdio.h>
+	"InfixToPostfix.h"
+
+1554947124 c:\users\sts08\desktop\data-structure\infixtopostfix\infixtopostfix.h
+
+1554948357 source:c:\users\sts08\desktop\data-structure\infixtopostfix\listbasestack.c
+	<stdio.h>
+	<stdlib.h>
+	"ListBaseStack.h"
+
+1554948345 c:\users\sts08\desktop\data-structure\infixtopostfix\listbasestack.h
+
+1555142569 source:c:\users\sts08\desktop\data-structure\infixtopostfix\infixtopostfix.c
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"ListBaseStack.h"
+
