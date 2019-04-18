@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1555296864 source:c:\users\sts08\desktop\data-structure\listbasequeue\listbasequeuemain.c
+	<stdio.h>
+	"ListBaseQueue.h"
+
+1555296859 c:\users\sts08\desktop\data-structure\listbasequeue\listbasequeue.h
+
+1555298003 source:c:\users\sts08\desktop\data-structure\listbasequeue\listbasequeue.c
+	<stdio.h>
+	<stdlib.h>
+	"ListBaseQueue.h"
+
