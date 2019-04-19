@@ -10,8 +10,9 @@
 	<stdlib.h>
 	"ArrayList.h"
 
-1554891357 source:c:\users\sts08\desktop\data-structure\teststudy\dblinkedlist.c
+1554892015 source:c:\users\sts08\desktop\data-structure\teststudy\dblinkedlist.c
 	<stdio.h>
+	<stdlib.h>
 	"DBLinkedList.h"
 
 1554891181 c:\users\sts08\desktop\data-structure\teststudy\dblinkedlist.h

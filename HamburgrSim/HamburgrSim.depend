@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1555577510 source:c:\users\sts08\desktop\data-structure\hamburgrsim\circularqueue.c
+	<stdio.h>
+	<stdlib.h>
+	"CircularQueue.h"
+
+1555577940 c:\users\sts08\desktop\data-structure\hamburgrsim\circularqueue.h
+
+1555577241 source:c:\users\sts08\desktop\data-structure\hamburgrsim\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"CircularQueue.h"
+
+1555577832 source:c:\users\sts08\desktop\data-structure\hamburgrsim\hamburgermain.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"CircularQueue.h"
+

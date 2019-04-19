@@ -6,6 +6,7 @@
 // 1. move tail
 // idea : next next
 // wlqudgus's idea
+/*
 void ListInit(List * plist)
 {
     plist->numOfData = 0;
@@ -76,7 +77,7 @@ int LCount(List * plist)
 {
     return plist->numOfData;
 }
-/*
+*/
 void ListInit(List * plist)
 {
    plist->numOfData = 0;
@@ -133,7 +134,7 @@ Data LRemove(List * plist)
         plist->tail = plist->before;
     }
     plist->before->next = plist->cur->next;
-
+    plist->cur = plist->before;
     free(rNode);
     (plist->numOfData)--;
     return data;
@@ -142,4 +143,4 @@ int LCount(List * plist)
 {
     return plist->numOfData;
 }
-*/
+

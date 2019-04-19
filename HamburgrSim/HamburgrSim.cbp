@@ -35,7 +35,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="CircularQueue.h" />
-		<Unit filename="main.c">
+		<Unit filename="HamburgerMain.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

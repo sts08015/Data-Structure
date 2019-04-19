@@ -4,22 +4,20 @@
 #define TRUE	1
 #define FALSE	0
 
+#define QUE_LEN	100
 
+#define CHECK 0
 typedef int Data;
-
-int QUE_LEN[] = {50,100,150,200,250};
 
 typedef struct _cQueue
 {
 	int front;
 	int rear;
-	Data* queArr;
+	Data queArr[QUE_LEN];
 } CQueue;
 
 typedef CQueue Queue;
 
-
-void ChooseSize(int a);
 void QueueInit(Queue * pq);
 int QIsEmpty(Queue * pq);
 
